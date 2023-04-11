@@ -1,7 +1,7 @@
 import { BrowserRouter, Route } from 'react-router-dom';
 import VendingMachine from './VendingMachine';
 import Cookies from './Cookies';
-import SourPatchKids from './SourPatchKids';
+import SourPatchWatermelon from './SourPatchWatermelon';
 import CocaCola from './CocaCola';
 import NavBar from './NavBar';
 
@@ -10,13 +10,13 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <NavBar />
-        <Route exact path="/snack1">
+        <Route exact path="/cookies">
           <Cookies />
         </Route>
-        <Route exact path="/snack2">
-          <SourPatchKids />
+        <Route exact path="/sourpatchwatermelon">
+          <SourPatchWatermelon />
         </Route>
-        <Route exact path="/snack3">
+        <Route exact path="/cocacola">
           <CocaCola />
         </Route>
         <Route exact path="/">
