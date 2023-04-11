@@ -10,8 +10,8 @@ function NavBar() {
       <NavLink exact to="/cookies">
         Cookies
       </NavLink>
-      <NavLink exact to="/sourpatchkids">
-        Sour Patch Kids
+      <NavLink exact to="/sourpatchwatermelon">
+        Sour Patch Watermelon
       </NavLink>
       <NavLink exact to="/cocacola">
         Coca Cola
